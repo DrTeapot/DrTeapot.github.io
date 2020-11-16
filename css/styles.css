@@ -809,12 +809,14 @@ ul#checkitup li {
 .cards-1 .section-title {
 	padding-bottom: 2rem;
 	text-align: center;
+	margin: 0 auto;
 }
 
 .cards-1 {
 	padding-top: 3rem;
 	padding-bottom: 2.875rem;
 	background-color: #153e52;
+	text-align: center;
 }
 .cards-1 h1 {
 	margin-bottom: 2.5rem;
@@ -837,17 +839,10 @@ ul#checkitup li {
 	margin-bottom: 1rem;
 	margin-left: auto;
 	line-height: 6rem;
-	text-align: left;
-
-}
-
-.cards-1 .fa-stack .hexagon {
-	position: absolute;
-	width: 6rem;
-	height: 6rem;
 	background: url('../images/hexagon-green.svg') center center no-repeat;
-	background-size: 6rem 6rem;
+
 }
+
 
 .cards-1 .fa-stack-1x {
 	color: #fff;
@@ -855,7 +850,7 @@ ul#checkitup li {
 }
 
 .cards-1 .card-body {
-	padding: 0;
+	padding: 1rem;
 	
 }
 .cards-1 .card-body h4{
@@ -1114,76 +1109,6 @@ ul#checkitup li {
 }
 
 
-
-/****************************/
-/*     Testimonials     */
-/****************************/
-
-.slider {
-	padding-top: 6.375rem;
-	padding-bottom: 6.5rem;
-	background-color: #fbfbfb;
-}
-
-.slider h2 {
-	margin-bottom: 0.75rem;
-	text-align: center;
-}
-
-.slider .slider-container {
-	position: relative;
-}
-
-.slider .swiper-container {
-	position: static;
-	width: 90%;
-	text-align: center;
-}
-
-.slider .swiper-button-prev:focus,
-.slider .swiper-button-next:focus {
-	/* even if you can't see it chrome you can see it on mobile device */
-	outline: none;
-}
-
-.slider .swiper-button-prev {
-	left: -0.5rem;
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
-	background-size: 1.125rem 1.75rem;
-}
-
-.slider .swiper-button-next {
-	right: -0.5rem;
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23787976'%2F%3E%3C%2Fsvg%3E");
-	background-size: 1.125rem 1.75rem;
-}
-
-.slider .card {
-	position: relative;
-	border: none;
-	background-color: transparent;
-}
-
-.slider .card-image {
-	width: 6rem;
-	height: 6rem;
-	margin-right: auto;
-	margin-bottom: 0.25rem;
-	margin-left: auto;
-	border-radius: 50%;
-}
-
-.slider .card .card-body {
-	padding-bottom: 0;
-}
-
-.slider .testimonial-text {
-	margin-bottom: 0.625rem;
-}
-
-.slider .testimonial-author {
-	color: #484a46;
-}
 
 
 /**********************/
@@ -1530,37 +1455,6 @@ a:hover.back-to-top {
 
 
 
-
-
-	/* Testimonials */
-	.slider .swiper-button-prev {
-		left: 1rem;
-		width: 1.375rem;
-		background-size: 1.375rem 2.125rem;
-	}
-	
-	.slider .swiper-button-next {
-		right: 1rem;
-		width: 1.375rem;
-		background-size: 1.375rem 2.125rem;
-	}
-	/* end of testimonials */
-
-
-	/* Projects */
-	.filter .element-item { 
-		width: 25%; 
-	}
-	
-	.filter .element-item .element-item-overlay { 
-		opacity: 0;
-		transition: opacity 0.3s ease;
-	}
-
-	.filter .element-item:hover .element-item-overlay {
-		opacity: 1;
-	}
-	/* end of projects */
 
 
 

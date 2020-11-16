@@ -13,7 +13,7 @@ Thank you guys!
     // This is the easiest way to have default options.
     var settings = $.extend({
       // These are the defaults.
-      
+      header: "",
       footer: '',
       maxRows: 6,
       minRating: 4,
@@ -160,7 +160,7 @@ Thank you guys!
           review_text = "<span class='review-date'>" + date + "</span> " + review_text;
         }
 
-        html = html + "<div class=" + style + "><div class='review-header'>" + picture + "<div class='review-usergrade'><div class='review-meta'><span class='review-author'>" + name + "</span><span class='review-sep'></span>" + "</div>" + stars + "</div></div><p class='review-text'>" + reviewText + "</p></div>";
+        html = html + "<div class=" + style + "><div class='review-header'><br />" + picture + "<div class='review-usergrade'><div class='review-meta'><span class='review-author'>" + name + "</span><span class='review-sep'></span>" + "</div>" + stars + "</div></div><p class='review-text'>" + reviewText + "</p></div>";
         // I do not need to display the date... but if you do:
         // +"<br><span class='review-date'>"+date+"</span>"+
       }
