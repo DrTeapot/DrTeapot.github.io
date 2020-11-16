@@ -13,7 +13,7 @@ Thank you guys!
     // This is the easiest way to have default options.
     var settings = $.extend({
       // These are the defaults.
-      header: "<h1> GOOGLE REVIEWS </h1><br />",
+      
       footer: '',
       maxRows: 6,
       minRating: 4,
@@ -46,7 +46,7 @@ Thank you guys!
 
     var renderHeader = function (header) {
       var html = "";
-      html += header + "<br>";
+      html += header + "<br />";
       targetDivJquery.append(html);
     };
 
@@ -64,7 +64,7 @@ Thank you guys!
         html += '<div class="buttons">' + htmlButtons + '</div>';
       }
 
-      html += "<br>" + footer + "<br>";
+      html += "<br />" + footer + "<br />";
       targetDivJquery.after(html);
     };
 
