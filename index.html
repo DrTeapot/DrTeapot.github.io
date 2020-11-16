@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="/js/google-places.js "></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=[API_KEY]"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/google-places.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyCxIG6MDqYmip_T1wKHjER6fZJGhYjF7l0"></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+  
     <!-- SEO Meta Tags -->
     <meta name="description" content="Jayne Of All Trades is a General Contracting company based in Colorado Springs Colorado.">
     <meta name="author" content="Jayne Of All Trades">
@@ -19,7 +21,7 @@
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>    Jayne Of All Trades is a General Contracting company based in Colorado Springs Colorado.
+    <title> Jayne Of All Trades is a General Contracting company based in Colorado Springs Colorado.
     </title>
     
     <!-- Styles -->
@@ -29,10 +31,24 @@
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/google-places.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
+
+
+
+    <script>
+        jQuery(document).ready(function() {
+            $("#google-reviews").googlePlaces({
+                placeId: 'ChIJT2iZt2NDE4cRszvpOSa8-YQ',
+                render: ['reviews'],
+                min_rating: 5,
+                max_rows: 0
+            });
+        });
+    </script>
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -520,9 +536,10 @@
     <!-- end of about -->
 
 
+    
+    <div id="google-reviews"></div>
 
     
-
     <!-- Testimonials -->
     <div id="testimonials" class="slider">
         <div class="container">
@@ -532,7 +549,9 @@
                     <p class="p-heading">Our clients are our partners and we can not imagine a better future for our company without helping them reach their objectives</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
+    
             <div class="row">
+       
                 <div class="col-lg-12">
 
                     <!-- Card Slider -->
@@ -642,19 +661,30 @@
     <div id="contact" class="form-1">
         <div class="container">
             <div class="row">
+                <div class="text-container">
+                    <div class="section-title">Contact</div>
+                    <h2 class="white">Have Us Contact You By Filling And Submitting The Form</h2>
+                    <p class="white">Need an inspection, an estimate, or a few questions?  If you have something to say,
+                        we are curious to hear it. Send us an e-mail and we’ll respond within 2 business days.  Need immediate service? – Just call!</p>
+                        <ul class="list-unstyled li-space-lg list-group list-group-horizontal justify-content-center">
+                            <li><i class="fas fa-phone"></i><a href="tel:7194289321">(719) 428-9321</a></li>
+                            <li>       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </li>
+                            <li><i class="fas fa-fax"></i><a href="tel:18002672127">1 (800) 267-2127</a></li>
+        
+                        </ul>
+                </div>
+
+            </div>
+            <div class="row">
                 <div class="col-lg-6">
-                    <div class="text-container">
-                        <div class="section-title">Contact</div>
-                        <h2 class="white">Have Us Contact You By Filling And Submitting The Form</h2>
-                        <p class="white">Need an inspection, an estimate, or a few questions?  If you have something to say,
-                            we are curious to hear it. Send us an e-mail and we’ll respond within 2 business days.  Need immediate service? – Just call!</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="address"><i class="fas fa-map-marker-alt"></i>1318 Pecan St.Colorado Springs, CO 80904</li>
-                                <li><i class="fas fa-phone"></i><a href="tel:003024630820">(719) 428-9321</a></li>
-                                <li><i class="fas fa-phone"></i><a href="tel:003024630820">1 (800) 267-2127</a></li>
             
-                            </ul>
-                    </div>
+               
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12431.570091031443!2d-104.8608553!3d38.8349222!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x84f9bc2639e93bb3!2sJayne%20of%20All%20Trades%2C%20Inc!5e0!3m2!1sen!2sus!4v1605478546938!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        
+                        
+                
+                </div>
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                    

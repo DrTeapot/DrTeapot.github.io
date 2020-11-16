@@ -1118,6 +1118,7 @@ ul#checkitup li {
 /****************************/
 /*     Testimonials     */
 /****************************/
+
 .slider {
 	padding-top: 6.375rem;
 	padding-bottom: 6.5rem;
@@ -1188,8 +1189,28 @@ ul#checkitup li {
 /**********************/
 /*    Contact   */
 /**********************/
+#contact .section-title{
+	text-align: center;
+	
+}
+#contact .text-container{
+	text-align:center;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:74%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 .form-1 {
-	padding-top: 6.625rem;	
+	padding-top: 3rem;	
 	padding-bottom: 5.625rem;	
 	background-color: #153e52;
 }
@@ -1670,7 +1691,7 @@ a:hover.back-to-top {
 
 	/* Contact */
 	.form-1 {
-		padding-top: 7rem;	
+		padding-top: 3rem;	
 	}
 
 	.form-1 .text-container {
